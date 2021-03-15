@@ -38,6 +38,13 @@ public class FirstApp {
         int x = a * (b + ( c / d ));
         System.out.println("x = " + x);
         //задание 1
+        
+        public void year (int s) {
+        if (s > 3) {
+            if (s % 4 == 0 && (s % 100 != 0 || s % 400 == 0)) {
+
+                System.out.println("Число является високосным");
+            } else System.out.println("Число является не високосным");
 
     }
 }
